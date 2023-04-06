@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+          <title>The Case Study - Accuracy Check (Google Lens vs MobileNet)</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+          <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        
+          <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+<body>
+    <center>
+    <h3>Case Study Between Google Lens And MobileNet</h3>
+    <h2>GOOGLE LENS<img src="googlelens.png"> VS MOBILENET</h2>
+    <ol>
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img id="mouse" src="mouse.jpg" class="img-responsive">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> - Gaming Mouse
+                <span></span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>MobileNet Model</b> - Vacuum Cleaner, vacuum
+                <span></span>
+            </h5>
+
+            <div class="mini_result col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>Google Lens is more accurate.</h4>
+            </div>
+        </div>
+        <br>
+    </ol>
+    <h3>I tested 7 things. Those things were a mouse, a coin, a sharpener, water bottle, a marker, a LEGO, and a piggy bank. Out of the 7, Google Lens was able to find all 7 items. But MobileNet was able to find 4 out the 7 items. So this shows that Google Lens is more accurate.</h3>
+    </center>
+</body>
+</html>
